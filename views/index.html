@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Widget Embed</title>
+    <link id="favicon" rel="icon" href="https://glitch.com/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <h1>Widget Embed</h1>
+    </header>
+
+    <main>
+      <p>By adding the following snippet to a project's view...</p>
+      
+      <pre><code>&lt;script src="https://widget.glitch.me/widget.min.js"&gt;&lt;/script&gt;</code></pre>
+
+      <p>...this project's <code>style.css</code> file will be added to the header, and the remix button and 
+      <br />view source link will be appended to any element with <code>id="gWidget"</code>.</p>
+      
+      <p>For example, this project's index view in <code>views/index.html</code> shows an empty <code>footer</code> element...</p>
+      
+      <pre><code>&lt;footer id="gWidget"&gt;&lt;/footer&gt;</code></pre>
+      
+      <p>On page load, the remix button and view source link will appear there!</p>
+      
+      <footer id="gWidget"></footer>
+    </main>
+
+    <script src="/widget.min.js"></script>
+  </body>
+</html>
