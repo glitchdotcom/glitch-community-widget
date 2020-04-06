@@ -6,13 +6,13 @@
 }
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: "Benton Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 25px;
 }
 
 h1 {
   font-weight: bold;
-  color: pink;
+  color: #373fff; /* #e75dff; */
 }
 
 .bold {
@@ -91,7 +91,7 @@ footer > a {
 
 .add-to-slack h1 {
   color: #fff;
-  background: url('https://gomix.com/slack-icon.png') no-repeat;
+  background: url('https://glitch.com/edit/slack-icon.png') no-repeat;
   padding: 0 0 0 3em;
   line-height: 2.5em;
   margin: 0;
